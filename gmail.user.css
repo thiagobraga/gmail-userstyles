@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Gmail UserStyles
+@namespace      github.com/thiagobraga/gmail-userstyles
+@version        1.0.0
+@description    Gmail UserStyles
+@author         Thiago Braga <contato@thiagobraga.org>
+==/UserStyle== */
+
+@-moz-document domain("mail.google.com") {
+  .aKB {
+		display: none;
+	}
+}
