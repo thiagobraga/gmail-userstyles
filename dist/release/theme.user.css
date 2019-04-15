@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name          Gmail Improvements
+@description   Improvements for Gmail dark theme
+@version       0.0.1
+@author        Thiago Braga <contato@thiagobraga.org>
+@license       MIT
+@namespace     https://github.com/thiagobraga
+@homepageURL   https://github.com/thiagobraga/gmail-userstyles
+@supportURL    https://github.com/thiagobraga/gmail-userstyles/issues
+@updateURL     https://github.com/thiagobraga/gmail-userstyles/raw/master/release/theme.user.css
+==/UserStyle== */
+@-moz-document
+  domain('mail.google.com')
+{
+  a:hover{text-decoration:none}.aKB{display:none}.iY .Bu{background-color:#222}.ha>.hP{color:#fff}.a3s.aXjCH [id*=ac-designer]>div[class*=divbody]>table>tbody>tr>td>table{background-color:#222}.a3s.aXjCH .hx,.a3s.aXjCH [id*=text_div]>div>div>span>span:first-child{color:#fff!important}
+}
