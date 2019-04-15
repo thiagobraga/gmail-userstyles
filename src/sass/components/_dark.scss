@@ -1,20 +1,41 @@
 .iY .Bu {
-  background-color: #222;
+  background-color: $background;
 }
 
 .ha > .hP {
-  color: #fff;
+  color: $white;
 }
 
 .a3s.aXjCH {
-  [id*="ac-designer"] > div[class*="divbody"] > table > tbody > tr > td > table {
-    background-color: #222;
+  [id*="layout-row-padding"],
+  [id*="ac-designer"] > div[class*="divbody"] table {
+    background-color: $background !important;
   }
 
   .hx,
-  [id*="text_div"] > div > div > span > span:nth-child(1) {
-    color: #fff !important;
+  .MsoNormal,
+  [id*="text_div"] > div > div > span > span:nth-child(1),
+  [id*="text_div"] > div > div:nth-child(2) > div {
+    color: $white !important;
   }
 
+  [id*="text_div"] > div > div > div > div[style] > span {
+    color: $white !important;
+  }
 }
 
+.hx {
+  color: $white !important;
+}
+
+img.CToWUd {
+  filter: invert(1);
+}
+
+font[color="#ff0000"] {
+  color: $red;
+}
+
+.ii a[href] {
+  color: $light-blue;
+}

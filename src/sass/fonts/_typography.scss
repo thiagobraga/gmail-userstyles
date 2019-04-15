@@ -1,6 +1,9 @@
 // Typography
 // =====================================================
 
-a:hover {
+a,
+a:hover,
+a:visited,
+a:focus {
   text-decoration: none;
 }
