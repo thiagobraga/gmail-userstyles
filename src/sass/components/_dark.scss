@@ -24,6 +24,11 @@
   }
 }
 
+.ha .pH-A7,
+.ha .aoj {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/1x/label_important_outline_white_20dp.png');
+}
+
 .hx {
   color: $white !important;
 }
@@ -38,4 +43,8 @@ font[color="#ff0000"] {
 
 .hx .gD {
   color: $white;
+}
+
+[id*="backgroundTable"] {
+  background-color: $background !important;
 }
