@@ -1,2 +1,4 @@
-# gmail-userstyles
-Hiding shit on Gmail
+# Gmail UserStyles
+
+- Hiding shit on Gmail
+- Dark theme for message body
