@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name          Better Dark Gmail by @thiagobraga
+@description   Improvements for Gmail dark theme
+@version       0.0.4
+@author        Thiago Braga <contato@thiagobraga.org>
+@license       MIT
+@namespace     https://github.com/thiagobraga
+@homepageURL   https://github.com/thiagobraga/gmail-userstyles
+@supportURL    https://github.com/thiagobraga/gmail-userstyles/issues
+@updateURL     https://github.com/thiagobraga/gmail-userstyles/raw/master/theme.user.css
+==/UserStyle== */
+@-moz-document
+  domain('mail.google.com')
+{
+  a,a:focus,a:hover,a:visited{text-decoration:none}.aKB{display:none}.iY .Bu{background-color:#31343f}.ha>.hP{color:#abb2bf}.a3s.aXjCH{background-color:#31343f!important}.a3s.aXjCH center,.a3s.aXjCH div,.a3s.aXjCH font,.a3s.aXjCH table,.a3s.aXjCH td{background-color:#31343f!important;border-color:#5c6370!important;color:#abb2bf!important}.a3s.aXjCH li,.a3s.aXjCH p,.a3s.aXjCH span{color:#abb2bf!important}.a3s.aXjCH [id$=canspamBarWrapper]{border:0!important}.a3s.aXjCH [id$=canspamBarWrapper] td{background-color:#1e2127!important;color:#5c6370!important}.ha .aoj,.ha .pH-A7{background-image:url(https://www.gstatic.com/images/icons/material/system/1x/label_important_outline_white_20dp.png)}.hx{color:#abb2bf!important}font[color="#ff0000"]{color:#e06c75!important}.ii a[href]{color:#4697d5}.hx .gD{color:#abb2bf}[id*=backgroundTable]{background-color:#31343f!important}[id*=-designer]>img{display:none!important}[id*=-footer]{background-color:#1e2127!important}[id*=-footer]+.adL{display:none!important}table>tbody>tr>td.amr>div{background-color:transparent!important}.amn .ams{background-color:#404552;box-shadow:0 0 0 1px rgba(92,99,112,.75)!important;color:#abb2bf}.amn .ams:before{opacity:.5}.amn .ams:before,img.ajT{-webkit-filter:invert(1);filter:invert(1)}img.ajT{opacity:.25!important}.brb .bra{background-color:#404552;border-radius:2px;box-shadow:0 0 0 1px rgba(92,99,112,.5)!important;color:#abb2bf;font-size:13px;padding:4px 10px}.g6{color:rgba(171,178,191,.3)}.aaq .mK,.bi4>.T-KT:not(.T-KT-Jp):not(.byM):before,.mK{-webkit-filter:invert(1);filter:invert(1);opacity:.5}.T-I-ax7.T-I-Jp .T-I-J3,.T-I-ax7.T-I-JW .T-I-J3,.T-I-ax7.T-I-KO .T-I-J3{opacity:.9}
+}
