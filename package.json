@@ -1,12 +1,12 @@
 {
   "name": "gmail-userstyles",
-  "description": "Improvements for Gmail dark theme",
+  "description": "Gmail One Dark",
   "author": "Thiago Braga <contato@thiagobraga.org>",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "license": "MIT",
   "userstyle": {
-    "name": "Better Dark Gmail by @thiagobraga",
+    "name": "Gmail One Dark by @thiagobraga",
     "namespace": "https://github.com/thiagobraga",
     "homepageURL": "https://github.com/thiagobraga/gmail-userstyles",
     "supportURL": "https://github.com/thiagobraga/gmail-userstyles/issues",
