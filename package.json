@@ -1,8 +1,8 @@
 {
   "name": "gmail-userstyles",
-  "description": "Gmail One Dark",
+  "description": "One Dark theme for Gmail",
   "author": "Thiago Braga <contato@thiagobraga.org>",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "license": "MIT",
   "userstyle": {
