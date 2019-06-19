@@ -11,15 +11,20 @@
   div
   font
   table
-  td
     background-color $darkerGray !important
     border-color $darkerGray !important
     color $lighterGray !important
 
-  li
-  p
-  span
+  li, p, a
+  b, span
     color $lighterGray !important
+
+  tr
+  td
+    background-color transparent !important
+
+  td[class$="break-line"]
+    background-color $darkerGray !important
 
   [id$="canspamBarWrapper"]
     border 0 !important
