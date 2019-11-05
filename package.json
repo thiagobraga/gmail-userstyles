@@ -2,7 +2,7 @@
   "name": "gmail-userstyles",
   "description": "One Dark theme for Gmail",
   "author": "Thiago Braga <contato@thiagobraga.org>",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "private": true,
   "license": "MIT",
   "userstyle": {
@@ -16,7 +16,7 @@
     }
   },
   "devDependencies": {
-    "autoprefixer": "9.6.1",
+    "autoprefixer": "9.7.1",
     "chokidar-cli": "2.0.0",
     "cssnano": "4.1.10",
     "font-awesome": "4.7.0",
