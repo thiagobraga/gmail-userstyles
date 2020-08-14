@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://www.logospng.com/images/0/google-mail-gmail-ndash-logos-brands-and-logotypes-663.png" height="128" /><br>
+  <img src="./src/images/logo-gmail.png" height="128" /><br>
   <br>
   Gmail One Dark
 </h1>
@@ -13,7 +13,7 @@
 
 ## Installation
 
-1. Install [Stylus](https://add0n.com/stylus.html)
+1. Install [Stylus](https://add0n.com/stylus.html) extension
 2. Then <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/install%20directly%20with-Stylus-lightgray.svg?longCache=true&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
 
 ## Development
