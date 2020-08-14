@@ -1,0 +1,28 @@
+modal = 'div.Kj-JD'
+text = 'div.Kj-JD-Jz'
+footer = '.Kj-JD-Jl'
+button-text = '.J-at1-auR'
+
+{modal}
+  background-color lighten($black, 2%)
+
+{modal} span
+  color $lighterGray
+
+{text}
+  color $lightGray
+
+{footer}
+  div& > button
+  .bBh & > {button-text}
+    color $lighterGray
+
+  div& > button
+    ^[1].J-at1-atl
+    ^[1].J-at1-auR
+      background-color $blue
+
+      &:hover
+        background-color darken(saturate($blue, -10%), 10%)
+        box-shadow 0 1px 2px 0 rgba(darken($blue, 10%), 0.451), 0 1px 3px 1px rgba(darken($blue, 10%), 0.302)
+
