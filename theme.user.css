@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name          Gmail One Dark by @thiagobraga
 @description   One Dark theme for Gmail
-@version       0.1.0
+@version       0.2.0
 @author        Thiago Braga <contato@thiagobraga.org>
 @license       MIT
 @namespace     https://github.com/thiagobraga
@@ -91,12 +91,6 @@
     background-color: #313232 !important;
     color: #ccc !important;
   }
-  .iY .Bu {
-    background-color: #31343f;
-  }
-  .ha > .hP {
-    color: #abb2bf;
-  }
   .a3s.aXjCH {
     background-color: #31343f !important;
   }
@@ -136,7 +130,7 @@
     background-image: url("https://www.gstatic.com/images/icons/material/system/1x/label_important_outline_white_20dp.png");
   }
   .hx {
-    color: #abb2bf !important;
+    color: #404552 !important;
   }
   font[color="#ff0000"] {
     color: #e06c75 !important;
@@ -145,7 +139,8 @@
     color: #4697d5;
   }
   .hx .gD {
-    color: #abb2bf;
+    font-weight: 600;
+    color: #596581;
   }
   [id*="backgroundTable"] {
     background-color: #1e2127 !important;
@@ -165,16 +160,14 @@
   .amn .ams {
     background-color: #404552;
     box-shadow: 0 0 0 1px rgba(49,52,63,0.75) !important;
-    color: #abb2bf;
+    color: #f1f1f1;
   }
   .amn .ams::before {
-    -webkit-filter: invert(1);
-            filter: invert(1);
-    opacity: 0.5;
+    filter: invert(1);
+    opacity: 0.75;
   }
   img.ajT {
-    -webkit-filter: invert(1);
-            filter: invert(1);
+    filter: invert(1);
     opacity: 0.25 !important;
   }
   .brb .bra {
@@ -186,13 +179,12 @@
     padding: 4px 10px;
   }
   .g6 {
-    color: rgba(171,178,191,0.3);
+    color: rgba(171,178,191,0.85);
   }
   .mK,
   .aaq .mK,
   .bi4 > .T-KT:not(.T-KT-Jp):not(.byM):before {
-    -webkit-filter: invert(1);
-            filter: invert(1);
+    filter: invert(1);
     opacity: 0.5;
   }
   .T-I-ax7.T-I-Jp .T-I-J3,
@@ -202,8 +194,7 @@
   }
   .T-I .T-I-J3,
   .f.gW {
-    -webkit-filter: contrast(0) brightness(2);
-            filter: contrast(0) brightness(2);
+    filter: contrast(0) brightness(2);
   }
   .ig .g3,
   .hI .g3,
@@ -214,14 +205,21 @@
   .hx .hb {
     color: #7f848e;
   }
+  .nH.V8djrc.byY {
+    background-color: #31343f;
+    color: #f1f1f1;
+    padding-bottom: 20px;
+  }
+  .ha > .hP {
+    color: #abb2bf;
+  }
   .gb_ja {
     background-color: #404552 !important;
   }
   .T-KT,
   .a9q.pH,
   .as .at {
-    -webkit-filter: saturate(0.5);
-            filter: saturate(0.5);
+    filter: saturate(0.5);
   }
   #loading {
     background-color: #31343f;

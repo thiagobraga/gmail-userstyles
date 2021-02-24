@@ -2,7 +2,7 @@
   "name": "gmail-userstyles",
   "description": "One Dark theme for Gmail",
   "author": "Thiago Braga <contato@thiagobraga.org>",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "license": "MIT",
   "userstyle": {
@@ -16,15 +16,14 @@
     }
   },
   "devDependencies": {
-    "autoprefixer": "9.7.6",
+    "autoprefixer": "10.0.1",
     "chokidar-cli": "2.1.0",
     "font-awesome": "4.7.0",
-    "postcss-cli": "7.1.1",
-    "stylus": "0.54.7",
+    "postcss-cli": "8.1.0",
+    "stylus": "0.54.8",
     "userstyle-gen": "0.1.2"
   },
   "resolutions": {
-    "**/**/minimist": ">=1.2.3",
     "**/**/yargs-parser": ">=13.1.2 <14.0.0 || >=15.0.1 <16.0.0 || >=18.1.2"
   }
 }
