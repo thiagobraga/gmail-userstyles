@@ -1,15 +1,13 @@
 PWD := $(shell pwd)
 PATH := ${PWD}/node_modules/.bin:$(PATH)
-.ONESHELL: install
-.SILENT: install build release watch
-all: clean install build watch
-
-install:
-	[ ! -f yarn.lock ] || [ -d node_modules ] && yarn && exit
-	[ -f yarn.lock ] && [ -d node_modules ] && echo 'Already installed' && exit
+.SILENT: clean install build release watch
+all: install build watch
 
 clean:
-	/bin/rm -rf node_modules yarn.lock
+	/bin/rm -rf node_modules
+
+install:
+	[ ! -d node_modules ] && yarn && exit
 
 build:
 	stylus src/styles -o theme.css
