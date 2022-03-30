@@ -2,27 +2,32 @@
 .G-atb
   background-color $darkBlue
 
+// Selector for settings page block
 .v
   .fY
     display flex
     align-items center
-    text-align center
-
-  .fY
-    background-color $black
+    overflow scroll hidden
     margin 0
+    height 4rem
+    background-color $black
+    text-align center
 
   .f1
     background-color transparent
+
+    > a
+      line-height 1.2rem
 
   .f1
   .f1 .f0
     color $lightGray
 
+  // Active page
   .fZ
+    border-radius 4px
     background-color $blue
     box-shadow none
-    border-radius 4px
 
     .f0
       color $white
@@ -32,9 +37,13 @@
   .fZ
     font-size 13px
 
+  // Top bar tabs text
   .f1
   .fZ
-    line-height 1.5
+    display flex
+    flex-shrink 0
+    align-items center
+    height 1.5rem
 
 // Body configuration
 .r4
@@ -46,8 +55,10 @@
 .r7 td.r9
   border-bottom-color $darkBlue
 
-.qV, .qv
-.qS, .qs
+.qV
+.qv
+.qS
+.qs
 .r7 td.r8
 .r7 td.r9
   padding 20px 0
@@ -55,6 +66,7 @@
 .qS
 .qV
   font-size 12px
+
   &:first-line
     font-size 14px
 
@@ -70,13 +82,13 @@
   font-size 12px
 
 select.a5p
-  background-color $black
-  border-color $black
-  color $lightGray
-  height 28px
   margin-left 5px
-  padding-left 5px
   padding-right 5px
+  padding-left 5px
+  height 28px
+  border-color $black
+  background-color $black
+  color $lightGray
 
 .bAY .rm
   color $lightGray
@@ -102,12 +114,12 @@ select.a5p
   table-layout initial
 
 .v9 input
-  background-color $black
-  border 0
-  color $lightGray
-  border-radius 3px
-  padding 5px 8px
   margin-bottom 4px
+  padding 5px 8px
+  border 0
+  border-radius 3px
+  background-color $black
+  color $lightGray
 
 .qX
 .qV
