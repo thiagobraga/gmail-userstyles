@@ -7,14 +7,17 @@
 <p align="center">
   One Dark theme for Gmail<br>
   <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-lightgrey.svg?longCache=true&logo=gmail&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
-  <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.2.0-red.svg" align="center" alt="Version 0.2.0"></a>
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=thibraga06%40gmail.com&item_name=Contribuir+para+o+desenvolvimento+de+projetos+open+source&currency_code=BRL&source=url" target="_blank" rel="nofollow noopener"><img src="https://img.shields.io/badge/donate-PayPal-0a4ea1.svg" align="center"></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.4.0-red.svg" align="center" alt="Version 0.4.0"></a>
 </p>
+
+<br>
 
 ## Installation
 
 1. Install [Stylus](https://add0n.com/stylus.html) extension
 2. Then <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/install%20directly%20with-Stylus-lightgray.svg?longCache=true&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
+
+<br>
 
 ## Development
 
@@ -24,8 +27,14 @@ cd gmail-userstyles
 make
 ```
 
+<br>
+
 ## Changelog
 
-### 0.2.0
+#### `0.4.0`
 
+- Improve settings page
 - Improve readability
+- Scrollbar improvements
+- Desaturate Gmail logo
+- Fix some bugs on components with theme not applied
