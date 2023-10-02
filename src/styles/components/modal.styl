@@ -2,6 +2,8 @@ modal = 'div.Kj-JD'
 text = 'div.Kj-JD-Jz'
 footer = '.Kj-JD-Jl'
 button-text = '.J-at1-auR'
+checkbox-checked = '.T-Jo-Jp'
+checkbox-unchecked = '.T-Jo'
 
 {modal}
   background-color lighten($black, 2%)
@@ -10,7 +12,7 @@ button-text = '.J-at1-auR'
   color $lighterGray
 
 {text}
-  color $lightGray
+  color $lighterGray
 
 {footer}
   div& > button
@@ -29,3 +31,20 @@ button-text = '.J-at1-auR'
 // Close icon on "Confirm delete" box
 span.Kj-JD-K7-Jq::after
   filter invert(1)
+
+// Select tabs modal
+.aJ7 .aI0
+  border-color transparent
+
+:not(.xY)
+  > {checkbox-checked}
+  > {checkbox-unchecked}
+    filter invert(1)
+
+// :not(.G-tF)
+//   > {checkbox-checked}
+//   > {checkbox-unchecked}
+//     filter invert(1)
+
+// .xY é o select dos emails
+// .G-tF é o select-all dos emails
