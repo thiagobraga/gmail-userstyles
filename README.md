@@ -7,7 +7,7 @@
 <p align="center">
   One Dark theme for Gmail<br>
   <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-lightgrey.svg?longCache=true&logo=gmail&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
-  <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.4.0-red.svg" align="center" alt="Version 0.4.0"></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.5.0-red.svg" align="center" alt="Version 0.5.0"></a>
 </p>
 
 <br>
@@ -30,6 +30,13 @@ make
 <br>
 
 ## Changelog
+
+#### `0.5.0`
+
+- Modal improvements
+- More context menu improvements
+- Margin improvements in mail content
+- Updated dependencies in yarn.lock
 
 #### `0.4.0`
 
