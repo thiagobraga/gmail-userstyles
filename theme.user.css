@@ -228,6 +228,9 @@
   .hx .ii {
     margin: 45px 45px 0 0;
   }
+  .ha > .hP {
+    color: #5c6370 !important;
+  }
   .J-M {
     background-color: #31343f;
   }
