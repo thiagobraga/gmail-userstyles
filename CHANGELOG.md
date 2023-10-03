@@ -1,5 +1,9 @@
 # ⏱️ Changelog
 
+#### `0.6.2`
+
+- Use minified CSS version for release file theme.user.css
+
 #### `0.6.1`
 
 - Add this CHANGELOG file

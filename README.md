@@ -7,7 +7,7 @@
 <p align="center">
   One Dark theme for Gmail<br>
   <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/Install%20directly%20with-Stylus-lightgrey.svg?longCache=true&logo=gmail&logoColor=f1f1f1" align="center" alt="Install directly with Stylus extension" /></a>
-  <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.6.1-red.svg" align="center" alt="Version 0.6.1"></a>
+  <a href="https://raw.githubusercontent.com/thiagobraga/gmail-userstyles/master/theme.user.css"><img src="https://img.shields.io/badge/version-0.6.2-red.svg" align="center" alt="Version 0.6.2"></a>
 </p>
 
 <br>
