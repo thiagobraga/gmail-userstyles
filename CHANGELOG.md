@@ -1,6 +1,10 @@
 # ⏱️ Changelog
 
-#### `0.5.1`
+#### `0.6.1`
+
+- Add this CHANGELOG file
+
+#### `0.6.0`
 
 - fix(content): Email title was not visible
 
